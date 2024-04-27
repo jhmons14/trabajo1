@@ -31,6 +31,7 @@ body{
     border-radius: 20px;
     font-size: 2rem;
     padding-left: 1.8rem;
+    color: white;
 }
 /*header*/
 .contenedor{
@@ -38,7 +39,7 @@ body{
     background-image: url("https://cntvinfantil.cl/cntv/wp-content/uploads/2019/12/5-series-cuenta-la-leyenda.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /*filter: blur(90px);*/
+    color: white;
 }
 .contenedor img{
     height: 30rem;
@@ -46,7 +47,52 @@ body{
     margin-top: 3rem;
     margin-left: 10rem;
     border-radius: 2rem;
+    
 }
+.botones{
+    margin: 2rem;
+}
+.botones button{
+    background-color: rgb(31, 33, 34, 0.5);
+    border: 3px solid white;
+    color: white;
+    border-radius: 100px;
+    padding: 10px 50px 10px 50px ;
+    margin-left: 4px;
+
+}
+.serie{
+    display: flex;
+    width: 50rem;
+    flex-direction: column;
+    align-items: center;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    width: 65rem;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+.etiquetas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.etiquetas a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 1px 2.8px 1px 2.8px;
+    font-size: 14.2px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+
+
 /*main*/
 /*footer*/
 footer{
