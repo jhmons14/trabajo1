@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Cuenta La leyenda</title>
 </head>
 <body>
@@ -12,21 +17,24 @@
         <div class="nav">
             <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2022/01/cntv-logo-97x97-1.png" alt="logo">
             <input type="text" placeholder="¿Qué quieres ver?">
-            <div>
-                <img src="" alt="">
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </div>
         
-
+        <div class="background-img"></div>
         <div class="contenedor">
-            <div class="serie">
-                <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2019/12/5-series-cuenta-la-leyenda.jpg" alt="">
-                <div class="botones">
-                    <button>Ver Serie</button>
-                    <button>Seguir</button>
-                </div>
-            </div>
             
+            <div class="sub-contenedor">
+                <div class="serie">
+                    
+                    <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2019/12/5-series-cuenta-la-leyenda.jpg" alt="">
+                    <div class="botones">
+                        <button><i class="fa-solid fa-play"></i> Ver Serie</button>
+                        <button><i class="fa-regular fa-heart"></i> Seguir</button>
+                    </div>
+                </div>
+            </div>           
 
             <div class="descripcion">
                 <p>Cuenta la leyenda es una serie de animación para niñas y niños que relata leyendas chilenas de suspenso y terror. Sus protagonistas son una familia aventurera que recorre Chile, por el trabajo arqueológico de la mamá, Caco y Vale, sus hijos, y el amante de las leyendas, el abuelo.</p>
@@ -50,9 +58,9 @@
 
     <main>
         <div class="secciones">
-            <a href="">Episodios</a>
-            <a href="">Juegos</a>
-            <a href="">Descargas</a>
+            <a href=""><i class="fa-solid fa-layer-group"></i> Episodios</a>
+            <a href=""><i class="fa-solid fa-puzzle-piece"></i> Juegos</a>
+            <a href=""><i class="fa-solid fa-circle-down"></i> Descargas</a>
         </div>
         <div class="videos">
             <div class="video">
@@ -79,30 +87,36 @@
     </main>
 
     <footer>
-        <div class="">
-            <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2019/10/logo.svg" alt="" height="250rem" width="250rem">
-            <p>Los videos, series y el material complementario de la Programación CNTV Infantil están disponibles para descarga y uso solamente con fines de reproducción personal, al interior del hogar, y en contexto de sala de clases. Queda totalmente prohibida la distribución y reproducción de los archivos a través de cualquier vía como reproducciones masivas en espacios abiertos o cerrados, a través de streaming, televisión digital, analógica terrestre o satelital, discos o dispositivos de almacenamiento físico. También se prohíbe la transmisión o emisión de material audiovisual por medio de cualquier otra modalidad de copia, que carezca de la autorización formal y escrita del Consejo Nacional de Televisión.</p>
+        <div class="footer">
+            <div class="logo-escrito">
+                
+                <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2019/10/logo.svg" alt="" height="250rem" width="250rem">
+                <p>Los videos, series y el material complementario de la Programación CNTV Infantil están disponibles para descarga y uso solamente con fines de reproducción personal, al interior del hogar, y en contexto de sala de clases. Queda totalmente prohibida la distribución y reproducción de los archivos a través de cualquier vía como reproducciones masivas en espacios abiertos o cerrados, a través de streaming, televisión digital, analógica terrestre o satelital, discos o dispositivos de almacenamiento físico. También se prohíbe la transmisión o emisión de material audiovisual por medio de cualquier otra modalidad de copia, que carezca de la autorización formal y escrita del Consejo Nacional de Televisión.</p>
+            </div>
+            <div class="etiquetas-footer">
+                <a href="">Sobre nosotros</a>
+                <a href="">Donde vernos</a>
+                <a href="">¿Quieres transmitirnos?</a>
+                <a href="">¿Quieres transmitir CNTV Infantil en un evento?</a>
+                <a href="">Blog</a>
+                <a href="">Material Descargable</a>
+            </div>
         </div>
-        <div>
-            <a href="">Sobre nosotros</a>
-            <a href="">Donde vernos</a>
-            <a href="">¿Quieres transmitirnos?</a>
-            <a href="">¿Quieres transmitir CNTV Infantil en un evento?</a>
-            <a href="">Blog</a>
-            <a href="">Material Descargable</a>
-        </div>
+        <section>
+            <div class="footer-footer">
+                <div class="direccion">
+                    <p>CNTV Infantil</p>
+                    <p>Mar Del Plata #2147 Providencia Santiago - Chile Tel (56-2) 592 27 00 Fax (56-2) 592 27 14 <a href="">cntvinfantil.cl</a></p>
+                </div>
+        
+                <div class="icon-redes">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
     </footer>
-    <section>
-        <div>
-            <p>CNTV Infantil</p>
-            <p>Mar Del Plata #2147 Providencia Santiago - Chile Tel (56-2) 592 27 00 Fax (56-2) 592 27 14 <a href="">cntvinfantil.cl</a></p>
-        </div>
-
-        <div>
-            <a href="">f</a>
-            <a href="">X</a>
-            <a href="">I</a>
-        </div>
-    </section>
+    
 </body>
 </html>

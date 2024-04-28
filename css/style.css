@@ -1,0 +1,210 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+/*nav*/
+.nav{
+    display: flex;
+    background-color: rgb(255, 117, 181);
+    background: linear-gradient(90deg, rgb(251, 4, 123) 0%, #8F47AC 50%, rgb(46, 132, 216) 100%);
+    height: 9rem;
+}
+.nav img{
+    margin-left: 3rem;
+}
+.nav input{
+    display: flex;
+    background-color: rgb(31, 33, 34, 0.5);
+    height: 40px;
+    width: 50rem;
+    margin: 2.8rem;
+    margin-left: 35rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    padding-left: 1.8rem;
+    color: white;
+}
+.menu-icon{
+    
+}
+.menu-icon i{
+    color: white;
+}
+/*header*/
+.background-img{
+    position: absolute;
+    background-image: url("https://cntvinfantil.cl/cntv/wp-content/uploads/2019/12/5-series-cuenta-la-leyenda.jpg");
+    height: 10rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42.8rem;
+    filter: blur(10px);
+    
+}
+.contenedor{
+    position: relative;
+    display: flex;
+}
+.serie img{
+    position: relative;
+    height: 30rem;
+    width: 40rem;
+    margin: 0;
+    border-radius: 2rem;
+    
+}
+
+.botones{
+    margin: 2rem;
+}
+.botones button{
+    background-color: rgb(31, 33, 34, 0.5);
+    border: 3px solid white;
+    color: white;
+    border-radius: 100px;
+    padding: 10px 50px 10px 50px ;
+    margin-left: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.sub-contenedor{
+    display: flex;
+    width: 52rem;
+    justify-content: center;
+    margin-left: 7rem;
+    margin-top: 2.8rem;
+}
+.serie{
+    display: flex;
+    width: 50rem;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.descripcion{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 65rem;
+    margin-top: 2rem;
+}
+.descripcion p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.etiquetas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.etiquetas a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 1px 2.8px 1px 2.8px;
+    font-size: 14.2px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+
+
+/*main*/
+.secciones{
+    margin: 5rem;
+}
+.secciones a{
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.videos{
+    display: flex;
+    background: linear-gradient(90deg, #3F7AD4 0%, #A53AB7 50%, #FA029E 100%);
+
+}
+.video{
+    margin-top: 4rem;
+    margin-left: 7rem;
+    margin-bottom: 4rem;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 700;
+
+}
+.video img{
+    border-radius: 18px;
+    height: auto;
+    width: 25rem;
+}
+.video p{
+    margin: 3px 0 3px 11px;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(21, 0, 59);
+}
+.logo-escrito{
+    display: flex;
+    color: white;
+    height: 25rem;
+    
+}
+.logo-escrito p{
+    margin: 50px 10px 10px 100px;
+    font-size: small;
+}
+.logo-escrito img{
+    margin-top: 3rem;
+    margin-left: 12rem;
+    height: 13rem;
+}
+.etiquetas-footer a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    margin-left: 1.5rem;
+    margin-bottom: 5rem;
+}
+.etiquetas-footer{
+    margin-left: 12rem;
+}
+section{
+    background-color: #0E0028;
+    
+}
+.footer-footer{
+    position: relative;
+    display: flex;
+}
+section .direccion{
+    color: gray;
+}
+.icon-redes{
+    position: absolute;
+    top: 10px;
+    right: 120px;
+}
+.icon-redes a{
+    
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    margin-left: 20px;
+}
