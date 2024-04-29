@@ -15,36 +15,46 @@
 <body>
     <header>
         <div class="nav">
-            <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2022/01/cntv-logo-97x97-1.png" alt="logo">
-            <input type="text" placeholder="¿Qué quieres ver?">
-            <div class="menu-icon">
-                <i class="fa-solid fa-bars"></i>
+            <div class="nav-img">
+                <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2022/01/cntv-logo-97x97-1.png" alt="logo">
+            </div>
+            <div class="nav-search">
+                <input type="text" placeholder="¿Qué quieres ver?">
+            </div>
+            <div class="menu">
+                <div class="circulo">
+                    <div class="menu-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
             </div>
         </div>
         
-        <div class="background-img"></div>
-        <div class="contenedor">
             
-            <div class="sub-contenedor">
-                <div class="serie">
-                    
-                    <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2019/12/5-series-cuenta-la-leyenda.jpg" alt="">
-                    <div class="botones">
-                        <button><i class="fa-solid fa-play"></i> Ver Serie</button>
-                        <button><i class="fa-regular fa-heart"></i> Seguir</button>
+            <div class="background-img">
+                <div class="fondo efecto"></div>
+            </div>
+            <div class="contenedor">
+                
+                <div class="sub-contenedor">
+                    <div class="serie">
+                        
+                        <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2019/12/5-series-cuenta-la-leyenda.jpg" alt="">
+                        <div class="botones">
+                            <button><i class="fa-solid fa-play"></i> Ver Serie</button>
+                            <button><i class="fa-regular fa-heart"></i> Seguir</button>
+                        </div>
                     </div>
-                </div>
-            </div>           
+                </div>           
 
-            <div class="descripcion">
-                <p>Cuenta la leyenda es una serie de animación para niñas y niños que relata leyendas chilenas de suspenso y terror. Sus protagonistas son una familia aventurera que recorre Chile, por el trabajo arqueológico de la mamá, Caco y Vale, sus hijos, y el amante de las leyendas, el abuelo.</p>
-                <div class="etiquetas">
+                <div class="descripcion">
+                    <p>Cuenta la leyenda es una serie de animación para niñas y niños que relata leyendas chilenas de suspenso y terror. Sus protagonistas son una familia aventurera que recorre Chile, por el trabajo arqueológico de la mamá, Caco y Vale, sus hijos, y el amante de las leyendas, el abuelo.</p>                    <div class="etiquetas">
                     <a href="">Atacama</a>
                     <a href="">Ave mistica</a>
                     <a href="">Brujos</a>
                     <a href="">cuentos tradicionales</a>
                     <a href="">desierto</a>
-                    <a href="">hechizos</a>
+                    <a href="">hechizos</a>                        
                     <a href="">leyendas</a>
                     <a href="">minerales</a>
                     <a href="">mitos</a>
@@ -57,32 +67,47 @@
     </header>
 
     <main>
-        <div class="secciones">
-            <a href=""><i class="fa-solid fa-layer-group"></i> Episodios</a>
-            <a href=""><i class="fa-solid fa-puzzle-piece"></i> Juegos</a>
-            <a href=""><i class="fa-solid fa-circle-down"></i> Descargas</a>
-        </div>
-        <div class="videos">
-            <div class="video">
-                <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2018/03/videos_preview_vlcsnap-2018-03-05-11h16m57s78_0-300x169.jpg" alt="">
-                <p>El alicanto</p>
-                <p>Episodio: T1 E1</p>
-            </div>
-            <div class="video">
-                <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2018/03/videos_preview_cuentalaleyendahumberstone-300x169.jpg" alt="">
-                <p>Humberstone</p>
-                <p>Episodio: T1 E2</p>
-            </div>
-            <div class="video">
-                <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2018/03/videos_preview_cuentalaleyendalatirana-300x169.jpg" alt="">
-                <p>La tirana</p>
-                <p>Episodio: T1 E3</p>
-            </div>
-            <div class="video">
-                <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2018/05/videos_preview_elyestay-300x169.jpg" alt="">
-                <p>El Yestay</p>
-                <p>Episodio: T1 E4</p>
-            </div>
+        <ul class="secciones">
+            <li class="linkUno"><a href="#videos"><i class="fa-solid fa-layer-group"></i> Episodios</a>
+                <div class="linea"></div>
+            </li>
+            <li class="linkDos"><a href="#juegos"><i class="fa-solid fa-puzzle-piece"></i> Juegos</a></li>
+            <li class="linkTres"><a href="#descarga"><i class="fa-solid fa-circle-down"></i> Descargas</a></li>
+        </ul>
+        
+        <div class="slider">
+            <ul>
+                <li id="videos">
+                    <div class="video">
+                        <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2018/03/videos_preview_vlcsnap-2018-03-05-11h16m57s78_0-300x169.jpg" alt="">
+                        <p>El alicanto</p>
+                        <p>Episodio: T1 E1</p>
+                    </div>
+                    <div class="video">
+                        <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2018/03/videos_preview_cuentalaleyendahumberstone-300x169.jpg" alt="">
+                        <p>Humberstone</p>
+                        <p>Episodio: T1 E2</p>
+                    </div>
+                    <div class="video">
+                        <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2018/03/videos_preview_cuentalaleyendalatirana-300x169.jpg" alt="">
+                        <p>La tirana</p>
+                        <p>Episodio: T1 E3</p>
+                    </div>
+                    <div class="video">
+                        <img src="https://cntvinfantil.cl/cntv/wp-content/uploads/2018/05/videos_preview_elyestay-300x169.jpg" alt="">
+                        <p>El Yestay</p>
+                        <p>Episodio: T1 E4</p>
+                    </div>
+                    
+                </li>
+                <li id="juegos"></li>
+                <li id="descarga">
+                    <div class="contenedor-material">
+                        <div class="material"><a href="">Florencia Niña Rapanui</a></div>
+                        <div class="material"><a href="">Dibujo Mana Un Niño Rapanui</a></div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </main>
 
